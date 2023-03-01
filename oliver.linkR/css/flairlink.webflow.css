@@ -1,0 +1,666 @@
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.image {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: block;
+  max-height: none;
+  margin-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.section {
+  margin-top: 100px;
+}
+
+.heading {
+  display: block;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  text-align: center;
+}
+
+.heading-2 {
+  display: block;
+  overflow: visible;
+  width: 500px;
+  max-width: none;
+  min-width: auto;
+  margin: 10px auto 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: none;
+  clear: none;
+  color: #e4e4e4;
+  font-size: 46px;
+  text-align: center;
+}
+
+.heading-3 {
+  width: 500px;
+  margin: -4px auto -18px;
+  padding-top: 0px;
+  color: #e4e4e4;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.list {
+  width: 800px;
+  margin-top: -10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #000;
+  -webkit-transition: color 400ms ease, background-color 400ms ease;
+  transition: color 400ms ease, background-color 400ms ease;
+  color: #e4e4e4;
+}
+
+.list-item:hover {
+  border-color: #000;
+  background-color: #cfcfcf;
+  color: #000;
+}
+
+.list-item-2 {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #000;
+  -webkit-transition: background-color 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, color 400ms ease;
+  color: #e4e4e4;
+}
+
+.list-item-2:hover {
+  background-color: #cfcfcf;
+  color: #000;
+}
+
+.list-item-3 {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #000;
+  -webkit-transition: background-color 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, color 400ms ease;
+  color: #e4e4e4;
+}
+
+.list-item-3:hover {
+  background-color: #cfcfcf;
+  color: #000;
+}
+
+.list-item-4 {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #000;
+  -webkit-transition: color 400ms ease, background-color 400ms ease;
+  transition: color 400ms ease, background-color 400ms ease;
+  color: #e4e4e4;
+}
+
+.list-item-4:hover {
+  background-color: #cfcfcf;
+  color: #000;
+}
+
+.list-item-5 {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #000;
+  -webkit-transition: background-color 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, color 400ms ease;
+  color: #e4e4e4;
+}
+
+.list-item-5:hover {
+  background-color: #cfcfcf;
+  color: #000;
+}
+
+.body {
+  max-height: none;
+  background-color: #1a1a1a;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.container {
+  max-height: 900px;
+  max-width: 700px;
+  padding-top: 0px;
+}
+
+.telegram-button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  max-height: 120px;
+  max-width: 500px;
+  min-width: 0px;
+  margin: 20px auto auto;
+  padding: 0px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.47);
+  -webkit-transition: background-color 320ms ease;
+  transition: background-color 320ms ease;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.telegram-button:hover {
+  border-color: #000;
+  background-color: rgba(44, 157, 255, 0.19);
+  color: #000;
+}
+
+.div-block {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-span {
+  display: block;
+  width: 270px;
+  height: 24px;
+  max-height: 24px;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-2 {
+  display: block;
+  float: none;
+  clear: none;
+}
+
+.telegram-section {
+  width: 700px;
+  max-width: 700px;
+  margin-top: -4px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link {
+  display: inline-block;
+  padding-top: 0px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.telegram-logo {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 45px;
+}
+
+.telegram-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.telegram-text {
+  height: auto;
+  margin-top: 38px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  font-family: Montserrat, sans-serif;
+  color: #cfcfcf;
+  font-size: 42px;
+  font-style: normal;
+}
+
+.telegram-text:hover {
+  min-height: 40px;
+  min-width: 40px;
+  color: #cfcfcf;
+}
+
+.onlyeggs-text {
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #cfcfcf;
+  font-size: 34px;
+  font-style: normal;
+}
+
+.onlyeggs-text:hover {
+  min-height: 40px;
+  min-width: 40px;
+  color: #cfcfcf;
+}
+
+.text-bbig-2 {
+  height: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  color: #cfcfcf;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.text-bbig-2:hover {
+  min-height: 40px;
+  min-width: 40px;
+  color: #333;
+}
+
+.twitter-section {
+  width: 700px;
+  max-width: 700px;
+  margin-top: -4px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.twitter-button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  max-height: 120px;
+  max-width: 500px;
+  min-width: 0px;
+  margin: 20px auto auto;
+  padding: 0px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.47);
+  -webkit-transition: background-color 320ms ease;
+  transition: background-color 320ms ease;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.twitter-button:hover {
+  border-color: #000;
+  background-color: rgba(44, 157, 255, 0.19);
+  color: #000;
+}
+
+.twitter-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.twitter-logo {
+  margin-top: 11px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+.twitter-text {
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-family: Montserrat, sans-serif;
+  color: #cfcfcf;
+  font-size: 42px;
+  font-style: normal;
+}
+
+.twitter-text:hover {
+  min-height: 40px;
+  min-width: 40px;
+  color: #cfcfcf;
+}
+
+.onlyeggs-section {
+  width: 700px;
+  max-width: 700px;
+  margin-top: -4px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.onlyeggs-button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  max-height: 120px;
+  max-width: 500px;
+  min-width: 0px;
+  margin: 20px auto auto;
+  padding: 0px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.47);
+  -webkit-transition: background-color 320ms ease;
+  transition: background-color 320ms ease;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.onlyeggs-button:hover {
+  border-color: #000;
+  background-color: rgba(44, 157, 255, 0.19);
+  color: #000;
+}
+
+.onlyeggs-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.onlyeggs-logo {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+.email-section {
+  width: 700px;
+  max-width: 700px;
+  margin-top: -4px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.email-button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  max-height: 120px;
+  max-width: 500px;
+  min-width: 0px;
+  margin: 20px auto auto;
+  padding: 0px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.47);
+  -webkit-transition: background-color 320ms ease;
+  transition: background-color 320ms ease;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.email-button:hover {
+  border-color: #000;
+  background-color: rgba(44, 157, 255, 0.19);
+  color: #000;
+}
+
+.email-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.email-logo {
+  margin-top: 12px;
+  margin-right: 10px;
+  margin-left: 36px;
+}
+
+.email-text {
+  height: auto;
+  margin-top: 38px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-family: Montserrat, sans-serif;
+  color: #cfcfcf;
+  font-size: 42px;
+  font-style: normal;
+}
+
+.email-text:hover {
+  min-height: 40px;
+  min-width: 40px;
+  color: #cfcfcf;
+}
+
+.tchannel-section {
+  width: 700px;
+  max-width: 700px;
+  margin-top: -4px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tchannel-button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  max-height: 120px;
+  max-width: 500px;
+  min-width: 0px;
+  margin: 20px auto auto;
+  padding: 0px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.47);
+  -webkit-transition: background-color 320ms ease;
+  transition: background-color 320ms ease;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.tchannel-button:hover {
+  border-color: #000;
+  background-color: rgba(44, 157, 255, 0.19);
+  color: #000;
+}
+
+.tchannel-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tchannel-logo {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+.tchannel-text {
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: Montserrat, sans-serif;
+  color: #cfcfcf;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.tchannel-text:hover {
+  min-height: 40px;
+  min-width: 40px;
+  color: #cfcfcf;
+}
+
+@media screen and (max-width: 767px) {
+  .telegram-section {
+    width: 400px;
+  }
+
+  .twitter-section {
+    width: 400px;
+  }
+
+  .onlyeggs-section {
+    width: 400px;
+  }
+
+  .email-section {
+    width: 400px;
+  }
+
+  .tchannel-section {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .image {
+    margin-top: 50px;
+  }
+
+  .heading-2 {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+  }
+
+  .heading-3 {
+    width: 200px;
+    margin-top: -15px;
+    font-size: 14px;
+  }
+
+  .telegram-section {
+    width: 400px;
+  }
+
+  .twitter-section {
+    width: 400px;
+  }
+
+  .onlyeggs-section {
+    width: 400px;
+  }
+
+  .email-section {
+    width: 400px;
+  }
+
+  .tchannel-section {
+    width: 400px;
+  }
+}
+
